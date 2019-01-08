@@ -31,3 +31,6 @@ span.math.display {
         font-size: 1.8em;
     }
 }
+.stackedit__right p {
+  text-indent: 3em;
+}
