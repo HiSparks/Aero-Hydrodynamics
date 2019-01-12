@@ -9,3 +9,6 @@ script:
   - find ./dist -name "*.md" -type f -exec rm -f {} \;
 after_success:
   - .travis/push.sh
+env:
+  global:
+    secire: AAAAB3NzaC1yc2EAAAADAQABAAACAQDYre8pJheq3x2G3dlTy8X0JiCAKdBx5BAhoBJ1LrNP9acHeBee0IAWtHFNhT8hGA5FoodrHxF6uKeuoroRGNWCV1el/vlBMd3ygRID+ISdjb0xrhLpvXuCXkPG6pIjFRA0yAcRRiwH88BcncRP39oL42oxmppZ8TLKHfGYk87RgLWFOzkc9zV40mYn3TpBShe+X0YcWoxmcBVF7ShgRzwndxQXT8Erqzdd4AQuCWf1WNZa3pOpYIPa87WAzps52IQY2qjC/5uFSg+SlLragF0amAVZtwBXI+ygqSAMmU4y7La6laM1JsckSamba/TV3VYYG7HrtYlDxnZQW8/nN3/7pMsjM4SlRC62YzhvGO2xv3u4F1nxCBXxXnlvaQVAhoer0RMcZlLGmBOFbfHvV5jR/eTYX9cXsEISWfbEa16IJLxKEM4/sBz7t0VwlSP0fD2zx2vJLdRiGiqrctlVL+VUTlA18E/DA+9MxTrU9EPVtcQRNixdqWlA/tNVxkcAkXsaVl0KqBX+2DeUyw/WoooB1oH7lvlXsNHdx5Z94vHpo9mTljRu8SWo/VUHHu05Ie8r2eUlwwC0O+vC/Di7m4o2Xyqowi8u2qo4H/5XqQqJ5GglyAkuh9f67AhrYq3ImK+jiWB0lCaHnsjg++vZ/iNP8X2UqnFZ0dfgpWEXvNJ1fQ==
